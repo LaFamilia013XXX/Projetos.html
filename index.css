@@ -1,1 +1,214 @@
+:root{
+    --background-color:  #121212;
+    --primary-color-letter: #fbfbfb;
+    --red-color: #e51e2a;
+}
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.3%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+/* Criando a primeira page */
+
+.section-page_01{
+    padding: 0 5rem 0 5rem;
+    position: relative;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+.section-page-01_logo{
+    height: 3rem;
+    width: 9rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-menu{
+    width: auto;
+    color: 
+    aqua;
+}
+
+.content-menu ul{
+    display: flex;
+}
+
+.content-menu li{
+    padding: 3rem;
+    list-style: none;
+    transition: ease-in-out 0.5s;
+}
+
+.content-menu a{
+    text-decoration: none;
+    color: var(--primary-color-letter);
+    font-size: 1.3rem;
+}
+
+.content-menu li:hover{
+    transform: rotate(360deg);
+    transition: ease-in-out 0.5s;
+    color:  var(--red-color);
+    cursor: pointer;
+}
+
+.content-menu a:hover{
+    color:  var(--red-color);
+    transition: ease-in-out 0.5s;
+}
+
+/* Box-texto */
+
+.box-text-page_01{
+    height: 51.5rem;
+    width: 40rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.box-text-page_01 p{
+    color: var(--primary-color-letter);
+    font-size: 1.2rem;
+    text-transform: initial;
+}
+
+.box-text-page_01 h1{
+    color: var(--red-color);
+    font-size: 9rem;
+}
+
+.box-text-page_01 h2{
+    color:  var(--primary-color-letter);
+    font-size: 2.6rem;
+}
+
+/* button-page_01 */
+
+.box-text-page_01 button{
+    margin-top: 3rem;
+    border-radius: 100px;    
+    background-color: var(--red-color);
+    outline: none;
+    color:  var(--primary-color-letter);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    width: 17rem;
+    height: 4rem;
+    transition: ease-in-out 0.5s;
+}
+
+.box-text-page_01 button:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    color: #121212;
+}
+
+.bottom-box-text{
+    position: absolute;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+}
+
+/* icons */
+
+.img-fb{
+    height: 2rem;
+    width: 1rem;
+}
+
+.img-tw{
+    height: 2rem;
+    width: 2rem;
+}
+
+.img-ins{
+    height: 2rem;
+    width: 2rem;
+
+}
+
+.img-social-media{
+    margin-left: 1.5rem;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    background-color: #7e7e7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* circle-absolute */
+
+.circle-section-page_01{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 45rem;
+    width: 50rem;
+    border-radius: 100% 0 0 0;
+    background-color: var(--red-color);
+    align-items: end;
+    padding: 0 0 1rem;
+}
+
+.produto-img-big{
+    height: 40rem;
+    width: 13rem;
+}
+
+.produto-img-small{
+    height: 24rem;
+    width: 12rem;
+}
+
+[data-rotate-00]{
+    transform: rotate(-15deg);
+}
+
+[data-rotate-01]{
+    transform: rotate(5deg);
+}
+
+[data-rotate-02]{
+    transform: rotate(15deg);
+}
+
+[data-rotate-03]{
+    transform: rotate(-10deg);
+    height: 30rem;
+}
