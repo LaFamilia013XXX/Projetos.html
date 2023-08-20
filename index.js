@@ -1,1 +1,1 @@
-alert('site sem JavaScript');
+alert('site sem JavaScript e adaptação para outras telas menores');
